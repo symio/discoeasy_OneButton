@@ -86,5 +86,7 @@ Enjoy et n'hésitez pas à envoyer des pull requests ou ouvrir des tickets si vo
 
 Photos et vidéo du montage ici : https://www.lesimprimantes3d.fr/forum/topic/14344-mod-bouton-pausechange-fil-pour-discoeasy200/
 
-Merci au Dagonautes sur le forum et sur Facebook vous êtes géniaux les mecs (sauf un ou deux dont moi bien sur) ...
+Le stl de face avant modifiée est là : https://www.tinkercad.com/things/0Ngym5hLYUM-discoeasy200modonebutton
+
+Merci au Dagonautes sur le forum et sur Facebook vous êtes géniaux les mecs (et les filles) (sauf un ou deux dont moi bien sur) ...
 
