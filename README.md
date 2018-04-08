@@ -77,7 +77,7 @@ Dans le fichier moded_easy.h :
 
 # compiler et flasher l'imprimante
 
-En suivant les tutos disponibles sur internet (http://solidutopia.com/fr/configurer-le-firmware-marlin/) compilez et téléverser votre firmaware modifié avec Arduino dans votre imprimante.
+En suivant les tutos disponibles sur internet (https://www.lesimprimantes3d.fr/forum/topic/6228-tuto-flasher-firmware-discoeasy/) compilez et téléverser votre firmaware modifié avec Arduino dans votre imprimante.
 
 # conclusion :
 Il ne vous reste qu'à brancher un bouton poussoir sur le endstop Z- comme sur la vidéo de montage de l'extrudeur+ sur le site de Dagoma.
