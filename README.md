@@ -80,4 +80,3 @@ Il ne vous reste qu'à brancher un bouton poussoir sur le endstop Z- comme sur l
 
 Enjoy et n'hésitez pas à envoyer des pull requests ou ouvrir des tickets si vous avez des soucis.
 
-
