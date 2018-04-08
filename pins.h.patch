@@ -1,0 +1,9 @@
+--- ./pins.h	2018-04-04 16:10:07.000000000 +0200
++++ ./pins.h	2018-04-08 13:48:08.976871569 +0200
+@@ -295,3 +295,6 @@
+ #define Z_MIN_PIN 15
+ #endif //__PINS_H
+ 
++#if defined(MODED_EASY_BOARD) && !defined(MODED_EASY_H)
++  #include "moded_easy.h"
++#endif
