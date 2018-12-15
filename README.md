@@ -10,6 +10,10 @@ Pour fonctionner vous devez connecter un bouton poussoir sur le port "z-" de la 
 
 Vous utilisez ce hack à vos risques et périls.
 
+# configuration :
+
+Lisez ce [guide](https://github.com/symio/discoeasy_OneButton/blob/master/config.md) pour configurer vos options
+
 # installation :
 
  - Copiez les fichiers dans le répertoire Marlin ou vous avez extrait les derniers fichiers source fournit par Dagoma (cf https://dist.dagoma.fr/)
