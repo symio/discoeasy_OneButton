@@ -9,7 +9,6 @@ Allez hop nouvelle version vous pouvez configurer :
  - Les trapézoïdales sans pack expert 
  - Les pid x,y,z et E 
  
- - L’inversion des ports des extrudeurs (non proposé par Dagoma)
 ## Le nom de l'imprimante :
 Dé-commentez la ligne 3 et changez (si vous le voulez) le nom ici je vous propose "ModedEasy200" :
 
@@ -24,11 +23,6 @@ Dé-commentez la ligne 4 pour activer le leveling en 9 points (plus précis que 
 Dé-commentez la ligne 6 pour activer le bouton pause non dépendant du détecteur de filament :
 
     #define ONE_BUTTON_MOD
-
-## Inversion des ports extrudeurs
-Vous pouvez inverser les ports d'extrudeurs (E1 en E0 et vice et versa) en dé-commentant la ligne 7
-
-    #define MODED_INVERT_EXTRUD
 
 ## Inversion des ports extrudeurs
 Vous pouvez inverser les ports d'extrudeurs (E1 en E0 et vice et versa) en dé-commentant la ligne 7
