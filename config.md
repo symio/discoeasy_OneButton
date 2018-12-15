@@ -13,7 +13,7 @@ Allez hop nouvelle version vous pouvez configurer :
 ## Le nom de l'imprimante :
 Dé-commentez la ligne 3 et changez (si vous le voulez) le nom ici je vous propose "ModedEasy200" :
 
-    #define MODED_MACHINE_NAME ModedEasy200
+    #define MODED_MACHINE_NAME "ModedEasy200"
 
 ## leveling en 9 points
 Dé-commentez la ligne 4 pour activer le leveling en 9 points (plus précis que les 5 points de Dagoma) :

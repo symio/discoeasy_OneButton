@@ -1,6 +1,6 @@
 #ifndef MODED_EASY_H
   #define MODED_EASY_H
-    #define MODED_MACHINE_NAME ModedEasy200 // Décommentez pour changer le nom de la machine
+    #define MODED_MACHINE_NAME "ModedEasy200" // Décommentez pour changer le nom de la machine
 //  #define MOD_BED_LEVELING_9P // décommentez (enlevez les "//" en début de ligne) pour 
 				 // activer le leveling en 9 points
   #define ONE_BUTTON_MOD	 // active ou désactive le mod one button
