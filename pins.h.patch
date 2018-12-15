@@ -1,7 +1,7 @@
---- ./pins.h	2018-04-04 16:10:07.000000000 +0200
-+++ ./pins.h	2018-04-08 13:48:08.976871569 +0200
-@@ -295,3 +295,6 @@
- #define Z_MIN_PIN 15
+--- ./pins.h	2018-12-13 16:28:31.000000000 +0100
++++ ./pins.h	2018-12-15 17:38:30.490148790 +0100
+@@ -301,3 +301,6 @@
+ #define ONE_BUTTON_PIN SUMMON_PRINT_PAUSE_PIN
  #endif //__PINS_H
  
 +#if defined(MODED_EASY_BOARD) && !defined(MODED_EASY_H)

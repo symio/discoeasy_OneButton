@@ -1,5 +1,5 @@
---- ./Configuration.h	2018-04-04 16:10:08.000000000 +0200
-+++ ./Configuration.h	2018-04-08 13:54:44.776083311 +0200
+--- ./Configuration.h	2018-12-13 16:28:31.000000000 +0100
++++ ./Configuration.h	2018-12-15 17:37:30.786310320 +0100
 @@ -38,6 +38,8 @@
  #ifndef CONFIGURATION_H
  #define CONFIGURATION_H
@@ -9,12 +9,3 @@
  #include "boards.h"
  #include "macros.h"
  
-@@ -118,7 +120,7 @@
- 
- // Optional custom name for your RepStrap or other custom machine
- // Displayed in the LCD "Ready" message
--#define CUSTOM_MACHINE_NAME "DiscEasy200"
-+#define CUSTOM_MACHINE_NAME "Moded DiscoEasy200"
- 
- // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
- // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
