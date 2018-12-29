@@ -2,17 +2,43 @@
 # discoeasy_OneButton
 Modifications pour Marlin_1.1.0RC6 par Dagoma afin d'activer la prise en compte d'un bouton pause/marche sur l'entrée Z-
 
+Ce mod permet également de conserver certains réglages en vue de futures mises à jour.
+
+vous pouvez configurer : 
+
+ - Le nom de votre imprimante 
+ - Le nivelage à 9 points de palpage (non proposé par Dagoma) 
+ - Le bouton pause sans dépendance de l'extrudeur+ 
+ - L'inversion des ports des extrudeurs
+ - Les trapézoïdales sans pack expert 
+ - Les pid x,y,z et E 
+
+
 # Disclaimer :
 Je ne suis pas associé ni employé par la société Dagoma.
-Ce que je vous propose ici fonctionne sur ma DiscoEasy 200 équipée d'un écran et sur la base du firmware officiel Dagoma en date du 2018/04/04-14h27 choisit sur https://dist.dagoma.fr/ avec pour options : "avec écran" et "sans filamentRunout".
+Ce que je vous propose ici fonctionne sur ma DiscoEasy 200 équipée d'un écran et sur la base du firmware officiel Dagoma à partir du date du 2018/04/04-14h27 
+choisit sur https://dist.dagoma.fr/ avec pour options : "avec écran" et "sans filamentRunout".
+
+Ce mod est compatible avec le pack expert ou un pack expert maison ainsi qu'avec l'extrudeur +.
+
 L'objectif et d'activer le mode de changement rapide de filament sur l'action d'un bouton comme Dagoma le propose dans son AddOn numéro2 "extrudeur+" sans l'extrudeur amélioré par Dagoma.
 Pour fonctionner vous devez connecter un bouton poussoir sur le port "z-" de la carte MKS base.
+
+L'objectif secondaire est de conserver vos personnalisation du firmware en cas de mise à jour.
+
+N'hésitez pas à me contacter pour demander des ajouts de config.
+
+C'est ce mod que j'utilise sur mon imprimante et pour moi cela fonctionne. 
+Je suis prêt à vous aider mais n'endosserais aucune responsabilité quand à l'usage de ce mod.
+Je considère que je m'adresse à des adultes responsables prêt à prendre à leurs charge leurs responsabilités.
 
 Vous utilisez ce hack à vos risques et périls.
 
 # configuration :
 
-Lisez ce [guide](https://github.com/symio/discoeasy_OneButton/blob/master/config.md) pour configurer vos options
+Lisez ce [guide](https://github.com/symio/discoeasy_OneButton/blob/master/config.md) pour configurer vos options.
+
+Tous les détails de configuration et explications s'y trouvent.
 
 # installation :
 

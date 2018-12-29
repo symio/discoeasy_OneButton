@@ -1,20 +1,26 @@
 #ifndef MODED_EASY_H
-  #define MODED_EASY_H
+    #define MODED_EASY_H// Mettez le nom de machine entre '"'
     #define MODED_MACHINE_NAME "ModedEasy200" // Décommentez pour changer le nom de la machine
-//  #define MOD_BED_LEVELING_9P // décommentez (enlevez les "//" en début de ligne) pour 
+//    #define MOD_BED_LEVELING_9P // décommentez (enlevez les "//" en début de ligne) pour 
 				 // activer le leveling en 9 points
-  #define ONE_BUTTON_MOD	 // active ou désactive le mod one button
-//  #define MODED_INVERT_EXTRUD // invertion extrudeur 0 en extrudeur 1
-//  #define MODED_TRAPEZ        // Z en trapézoïdales sans pack expert
-//  #define MODED_PRECISION     // Définition de la précision des prints 
+    #define ONE_BUTTON_MOD	 // active ou désactive le mod one button (fonctionne avec le pack extru+)
+//    #define MODED_INVERT_EXTRUD // invertion extrudeur 0 en extrudeur 1
+//    #define MODED_TRAPEZ        // Z en trapézoïdales avec ou sans pack expert
+//    #define MODED_PRECISION     // Définition de la précision des prints 
                                 // (très utile pour personaliser les pid)
-//  Et définissez vos pid ci-dessous voir :
+//  Et définissez vos pid (steps per millimeter) ci-dessous voir :
 //  https://www.lesimprimantes3d.fr/forum/topic/3394-tuto-calcul-des-steps-per-mmunit-une-fois-pour-toutes/
     #define MODED_PID_X 80      // X Par défaut la valeur dagoma est 80
     #define MODED_PID_Y 80      // Y Par défaut la valeur dagoma est 80
     #define MODED_PID_Z 2560    // Z Par défaut la valeur dagoma est 400 
                                 // en trapez pack expert et 2560 en filetés standard 
     #define MODED_PID_E 98      // E (extru) Par défaut la valeur dagoma est 98
+//  Vous pouvez utiliser directement des caculs d'adaptation des stepsPerMillimeter :
+// ceci est un exemple ne réécrivez pas ça tel quel svp
+//    #define MODED_PID_[xyz] (<spmOriginel>*(100/<mesure>))
+//    #define MODED_PID_X (80*(100/100.18))
+//    #define MODED_PID_Y (80*(100/99.69))
+//    #define MODED_PID_Z (400*(100/100.14)) // #define MODED_PID_Z (2560*(100/100.14)) pour des tiges filetées
 #endif
 /*-----------------------------------------------------------------------------*/
 // Fin de config ne touchez à rien ci-dessous configurez ce que vous voulez au dessus de cette ligne
@@ -74,14 +80,14 @@
   #ifdef MODED_TRAPEZ
     #undef DEFAULT_AXIS_STEPS_PER_UNIT
     #ifdef MODED_PRECISION
-      #define DEFAULT_AXIS_STEPS_PER_UNIT {MODED_PID_X,MODED_PID_Y,MODED_PID_Z,MODED_PID_E}
+      #define DEFAULT_AXIS_STEPS_PER_UNIT {MODED_PID_X, MODED_PID_Y, MODED_PID_Z, MODED_PID_E}
     #else
-      #define DEFAULT_AXIS_STEPS_PER_UNIT {MODED_PID_X,MODED_PID_Y,MODED_PID_Z,MODED_PID_E}
+      #define DEFAULT_AXIS_STEPS_PER_UNIT {80, 80, 400, 98}
     #endif
   #else
     #ifdef MODED_PRECISION
       #undef DEFAULT_AXIS_STEPS_PER_UNIT
-      #define DEFAULT_AXIS_STEPS_PER_UNIT {MODED_PID_X,MODED_PID_Y,MODED_PID_Z,MODED_PID_E}
+      #define DEFAULT_AXIS_STEPS_PER_UNIT {MODED_PID_X, MODED_PID_Y, MODED_PID_Z, MODED_PID_E}
     #endif
   #endif
 #endif
